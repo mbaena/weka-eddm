@@ -1,0 +1,46 @@
+# Template Description file for a Weka package
+#
+# 
+
+# Package name (required)
+PackageName=EDDM
+
+# Version (required)
+Version=1.0.0
+
+#Date
+Date=2006-08-01
+
+# Title (required)
+Title=Early Drift Detection Method (EDDM)
+
+Category=Classification
+
+# Author (required)
+Author=Manuel Baena 
+
+# Maintainer (required)
+Maintainer=Manuel Baena
+
+# License (required)
+License=GPL 3.0
+
+# Description (required)
+Description=Add a new meta classifier SCDrift. <br/>For more information see: <br/><br/>Early Drift Detection Method. Manuel Baena-Garcia, Jose Del Campo-Avila, Raúl Fidalgo, Albert Bifet, Ricard Gavalda, Rafael Morales-Bueno. In Fourth International Workshop on Knowledge Discovery from Data Streams, 2006.
+
+#Changes=Changes description.
+
+# Package URL for obtaining the package archive (required)
+PackageURL=http://weka.sourceforge.net/mbaena/EDDM1.0.0.zip?download
+
+# URL for further information
+URL=http://weka.sourceforge.net/doc.packages/eddm
+
+# Enhances various other packages ?
+# Enhances=packageName1,packageName2,...
+
+# Related to other packages?
+#Related=
+
+# Dependencies
+Depends=weka (>=3.7.12)
